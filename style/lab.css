@@ -1,0 +1,76 @@
+:root {
+  --font-black: #000;
+  --font-white: #fffcf9;
+}
+
+.SY {
+  width: 1440px;
+  display: flex;
+  flex-flow: column;
+}
+/* 랩 제목영역 디자인 */
+.lab-heading {
+}
+.lab-title {
+  margin: 0;
+  font-size: 48px;
+  color: var(--font-black);
+  text-align: center;
+  font-weight: 250;
+  margin-top: 80px;
+  letter-spacing: 4.8px;
+}
+.lab-title span,
+.lab-subtitle span {
+  font-weight: 700;
+}
+.lab-subtitle {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 18px;
+  color: var(--font-black);
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+
+  /* 랩 사진 영역 디자인 */
+}
+.divider {
+  width: 70px;
+  border-top: 1px solid #7d6f5d;
+}
+.lab {
+  position: relative;
+  height: 1200px;
+}
+.lab-menu {
+  position: absolute;
+  top: 110px;
+  left: 120px;
+  z-index: 1;
+}
+.lab-barista {
+  position: absolute;
+  top: 243px;
+  left: 628px;
+}
+.lab-img-text {
+  position: absolute;
+  color: var(--font-white);
+  margin: 0;
+  line-height: 44.8px;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: none;
+  padding-bottom: 30px;
+  border-bottom: 10px solid var(--font-white);
+}
+.lab-menu-text {
+  top: 632px;
+  left: 373px;
+  z-index: 10;
+}
+.lab-barista-text {
+  top: 765px;
+  left: 858px;
+}

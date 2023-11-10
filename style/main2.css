@@ -1,0 +1,122 @@
+:root {
+  --grayscale-white: #fffcf9;
+  --grayscale-black: #282725;
+}
+.SY {
+}
+/* 드랍다운바 */
+.SY .dropdownbar {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+/* 드랍다운바 -공통 */
+.bar {
+  display: flex;
+  justify-content: end;
+}
+.bar h3 {
+  width: 192px;
+  height: 20px;
+  font-weight: 700;
+  font-family: Spoqa Han Sans Neo;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+}
+.bar span {
+  font-weight: 400;
+}
+
+.bar-left .icons-left,
+.bar-right .icons-right {
+  margin: 20px;
+}
+/* 드랍다운바 - 왼쪽 */
+.bar-left {
+  width: 832px;
+  height: 64px;
+  background-color: var(--grayscale-white);
+}
+.bar-left h3 {
+  margin: 22px 0;
+  text-align: right;
+}
+
+/* 드랍다운바 - 오른쪽 */
+.bar-right {
+  width: 608px;
+  height: 64px;
+  background-color: var(--grayscale-black);
+}
+.bar-right h3 {
+  color: var(--grayscale-white);
+  text-align: center;
+  margin: 22px 0;
+}
+
+/* 드랍다운바 이너 */
+.drop-inner {
+  display: flex;
+  justify-content: center;
+  background: yellow;
+}
+.box {
+  width: 1440px;
+  height: 560px;
+  padding: 40px 120px;
+  background: var(--grayscale-white);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+/* 드랍다운바 이너 카드*/
+.card-left,
+.card-right {
+  width: 590px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--grayscale-black);
+  border-radius: 6px;
+}
+.left-text,
+.right-text {
+  text-align: center;
+  font-family: Spoqa Han Sans Neo;
+  margin: 30px 0;
+  padding: 0 48px;
+}
+.left-text span,
+.right-text span {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 2.8px;
+  color: var(--grayscale-white);
+}
+.left-text p,
+.right-text p {
+  color: var(--grayscale-white);
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* 버튼디자인 */
+.btn {
+  box-sizing: content-box;
+  border: 2px solid var(--grayscale-white);
+  border-radius: 3px;
+  padding: 10px 25px;
+  background: transparent;
+  line-height: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 21px;
+  color: #fff;
+}
