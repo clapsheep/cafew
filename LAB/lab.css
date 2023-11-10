@@ -54,7 +54,7 @@
 .lab-barista {
   position: absolute;
   top: 243px;
-  left: -188px;
+  left: -92px;
 }
 .lab-img-text {
   position: absolute;
@@ -70,12 +70,14 @@
 .lab-menu-text {
   top: 577px;
   left: -347px;
-
   z-index: 10;
 }
 .lab-barista-text {
-  top: 710px;
+  /* color: #000; */
+  position: absolute;
+  top: 684px;
   left: 138px;
   z-index: 20;
-  /* 어 이녀석 왜 줄바꿈 되죠 */
+  width: 191px;
+  /* 어 이녀석 왜 줄바꿈 되죠 그래서 width를 억지로 넣었어여  ㅜ */
 }
