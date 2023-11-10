@@ -7,6 +7,7 @@
   width: 1440px;
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 /* 랩 제목영역 디자인 */
 .lab-heading {
@@ -38,6 +39,7 @@
 .divider {
   width: 70px;
   border-top: 1px solid #7d6f5d;
+  margin: 55px;
 }
 .lab {
   position: relative;
@@ -45,14 +47,14 @@
 }
 .lab-menu {
   position: absolute;
-  top: 110px;
-  left: 120px;
+  top: 55px;
+  left: -600px;
   z-index: 1;
 }
 .lab-barista {
   position: absolute;
   top: 243px;
-  left: 628px;
+  left: -188px;
 }
 .lab-img-text {
   position: absolute;
@@ -66,11 +68,14 @@
   border-bottom: 10px solid var(--font-white);
 }
 .lab-menu-text {
-  top: 632px;
-  left: 373px;
+  top: 577px;
+  left: -347px;
+
   z-index: 10;
 }
 .lab-barista-text {
-  top: 765px;
-  left: 858px;
+  top: 710px;
+  left: 138px;
+  z-index: 20;
+  /* 어 이녀석 왜 줄바꿈 되죠 */
 }
